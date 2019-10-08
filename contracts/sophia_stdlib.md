@@ -90,7 +90,7 @@ Replaces `n`th element of `l` with `e`. Throws an error if `n` is negative or wo
 ### insert_at
 `insert_at(n : int, e : 'a, l : list('a)) : list('a)`
 
-Inserts `e` into `l` to be on position `n` by shifting following elements further. For instance,
+Inserts `e` into `l` to be on the position `n` by shifting following elements further. For instance,
 ```
 insert_at(2, 9, [1,2,3,4])
 ```
